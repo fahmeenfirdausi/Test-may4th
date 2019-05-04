@@ -1,0 +1,79 @@
+
+.cart {
+    background-color: rgb(230, 53, 53);
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    margin: 3px;
+}
+
+    .cart:hover {
+        background-color: blue; 
+    }
+
+.start {
+background-color: yellow;
+color: #2a61fb;
+border-color: #2a61fb;
+padding: 5px 16px;
+margin: 3px;
+}
+
+.start:hover {
+    background-color: blue; 
+}
+
+.login {
+    background: linear-gradient(to right, #33ccff 1%, #66ff66 100%);
+    opacity: .7;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 4px 20px;
+    margin: 3px;
+}
+
+.login:hover {
+    background-color: blue; 
+}
+
+.signup {
+    color: #6749ea;
+    border-color: #6749ea;
+    border-radius: 5px;
+    background: white;
+    padding: 3px 10px;
+    margin: 3px;
+
+}
+
+.signup:hover {
+    background-color: blue; 
+}
+
+.subscribe {
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    border: none; 
+    background:linear-gradient(to , #e4bf62 10%, #f7ae31 50%, #ec9c2b 100%);
+    margin: 3px;
+}
+
+.subscribe:hover {
+    background-color: blue; 
+}
+
+
+
+.twitter {
+    background-color: white;
+border: none;
+margin: 3px;
+
+}
+
+.twitter:hover {
+    background-color: blue; 
+}
+
