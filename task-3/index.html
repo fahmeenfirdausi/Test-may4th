@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Document</title>
 
-    <!-- 
+<head>
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 
-        Google Fonts used:
-        - Montserrat
+<body>
+  <form action="logged-in.html">
+    <div>
+      <label for="nameinp" >Full Name</label>
+      <input id="nameinp" type="text" required/>
+    </div>
 
-     -->
-  </head>
-  <body></body>
+    <div>
+      <label for="ageinp" >Age</label>
+      <input id="ageinp" type="number" min="10" max="100" required/>
+    </div>
+
+    <div>
+      <label for="emailinp">Email Address</label>
+      <input id="emailinp" type="e-mail" required/>
+    </div>
+
+    <div>
+      <label for="passwordinp" >Password</label>
+      <input id="passwordinp" type="password" required/>
+    </div>
+
+    <div class="buttons">
+      <button>Log In</button>
+      <a href="#">Forgot your password?</a>
+    </div>
+  </form>
+</body>
+
 </html>
